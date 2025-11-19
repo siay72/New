@@ -31,9 +31,9 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "events-managment-mgt5.onrender.com",
+    "new-y68j.onrender.com",
 ]
-CSRF_TRUSTED_ORIGINS =['https://events-managment-mgt5.onrender.com', 'http://127.0.0.1:8000']
+CSRF_TRUSTED_ORIGINS =['https://new-y68j.onrender.com', 'http://127.0.0.1:8000']
 
 AUTH_USER_MODEL= 'users.CustomUser'
 
@@ -169,7 +169,7 @@ EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 
-FRONTEND_URL = 'https://events-managment-mgt5.onrender.com/'
+FRONTEND_URL = 'https://new-y68j.onrender.com/'
 
 
 LOGIN_URL = 'sign-in'
